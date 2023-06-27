@@ -35,6 +35,10 @@ body{
 	
 }
 
+.links > a{
+	padding-right: 5px;
+}
+
 h1{
 	font-family: 'Comfortaa', cursive;
 
@@ -53,6 +57,8 @@ h1{
 	display: flex;
 	width: 100%;
 
+
+
 	gap:10px;
 	align-items: center;
 	justify-content: center;
@@ -62,4 +68,22 @@ h1{
 .footer{
 	background-color: var(--IsaPink);
 	height: 30px;
+}
+
+@media(max-width:800px){
+	.profileimg{
+		display: none;
+	}
+}
+
+@media(max-width: 600px){
+	.profileimg{
+		display: none;
+	}
+
+	.musicrec{
+		width: 280px;
+		height: 157px;
+	}
+
 }
