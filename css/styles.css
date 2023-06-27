@@ -1,0 +1,57 @@
+:root{
+	--IsaPink: #FFC0E2;
+	--IsaRed: #c4545c;
+	--IsaLightPurple: #e7dcf6;
+	--IsaDarkPurple: #64547c;
+	--IsaBlue: #144c7c;
+	--IsaYellow: #fcf3ca;
+}
+
+body{
+	margin:0px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header{
+	background-color: var(--IsaPink);
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 30px;
+
+}
+.header > .logo{
+	text-align: left;
+}
+
+.header > .links{
+	min-width: 70%;
+	text-align: right;
+	
+}
+
+h1{
+	font-family: 'Comfortaa', cursive;
+
+}
+
+.maincontent{
+
+}
+
+.aboutcontainer{
+	display: flex;
+	width: 100%;
+
+	gap:10px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.footer{
+	background-color: var(--IsaPink);
+	height: 30px;
+}
