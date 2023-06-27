@@ -11,6 +11,7 @@ body{
 	margin:0px;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
+	background-color: var(--IsaPink);
 }
 
 .header{
@@ -20,6 +21,8 @@ body{
 	align-items: center;
 	justify-content: space-between;
 	height: 30px;
+	position: sticky;
+	top: 0;
 
 }
 .header > .logo{
@@ -37,7 +40,12 @@ h1{
 
 }
 
+.intro{
+	background-color: var(--IsaPink);
+}
+
 .maincontent{
+	background-color: white;
 
 }
 
