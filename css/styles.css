@@ -53,6 +53,10 @@ h1{
 
 }
 
+.musicrec{
+	padding:10px;
+}
+
 .aboutcontainer{
 	display: flex;
 	width: 100%;
