@@ -14,6 +14,11 @@ body{
 	background-color: var(--IsaPink);
 }
 
+a{
+	text-decoration: none;
+
+}
+
 .header{
 	background-color: var(--IsaPink);
 
@@ -29,10 +34,17 @@ body{
 	text-align: left;
 }
 
-.header > .links{
+.header > .links > a{
 	min-width: 70%;
 	text-align: right;
+	text-decoration: none;
 	
+}
+
+.header > .links > a:hover{
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: var(--IsaDarkPurple);
 }
 
 .links > a{
