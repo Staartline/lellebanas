@@ -11,6 +11,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
+	<
 </head>
 
 
@@ -22,6 +23,7 @@
 			<a href="index.html"><img src="assets/logo.png" alt="Lellebana" width="100px"></a>
 		</div>
 		<div class="links">
+			<a href="index.html">Home</a>
 			<a href="assets.html">Assets</a>
 			<a href="achiv.html">Achievement</a>
 			<a href="refs.html">Reference</a>
@@ -37,14 +39,14 @@
 		</div>
 
 		<div class="buttons">
-			<button>Original</button>
-			<button>Stargazer</button>
-			<button>Casual Outing</button>
-			<button>Pajamas</button>
+			<button onclick="javascript:changeProfileImg('assets/original.png');">Original</button>
+			<button onclick="javascript:changeProfileImg('assets/stargazer.png');">Stargazer</button>
+			<button onclick="javascript:changeProfileImg('assets/casual.png');">Casual Outing</button>
+			<button onclick="javascript:changeProfileImg('assets/pajamas.png');">Pajamas</button>
 		</div>
 
 		<div>
-			<img id="referenceimg" src="" alt="reference">
+			<img id="referenceimg" src="assets/original.png" alt="reference">
 		</div>
 		
 	</div>
@@ -54,7 +56,11 @@
 	</div>
 
 	<script>
-		
+				
+		function changeProfileImg(imgsrc){
+			document.getElementById("referenceimg").setAttribute("src", imgsrc);
+			console.log("clicked");
+		}
 
 	</script>
 </body>

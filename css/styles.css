@@ -19,6 +19,23 @@ a{
 
 }
 
+a:hover{
+	color: var(--IsaRed);
+}
+
+button{
+	background-color: transparent;
+	font-size: 1.25rem;
+	border-radius: 12px;
+	border:solid 3px var(--IsaDarkPurple);
+	color:var(--IsaDarkPurple);
+}
+
+button:hover{
+		border:solid 3px var(--IsaRed);
+		color:var(--IsaRed);
+}
+
 .header{
 	background-color: var(--IsaPink);
 
@@ -44,7 +61,7 @@ a{
 .header > .links > a:hover{
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
-	text-decoration-color: var(--IsaDarkPurple);
+	text-decoration-color: var(--IsaRed);
 }
 
 .links > a{
@@ -53,11 +70,18 @@ a{
 
 h1{
 	font-family: 'Comfortaa', cursive;
+	font-size: 2.5rem;
+	color: var(--IsaRed);
 
+}
+
+h2{
+	color: var(--IsaRed);
 }
 
 .intro{
 	background-color: var(--IsaPink);
+	padding-bottom: 10px;
 }
 
 .maincontent{
@@ -67,6 +91,10 @@ h1{
 
 .musicrec{
 	padding:10px;
+}
+
+.buttons{
+	padding: 10px;
 }
 
 .aboutcontainer{
