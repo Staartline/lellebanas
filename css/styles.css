@@ -24,18 +24,6 @@ a:hover{
 	color: var(--IsaRed);
 }
 
-button{
-	background-color: transparent;
-	font-size: 1.25rem;
-	border-radius: 12px;
-	border:solid 3px var(--IsaDarkPurple);
-	color:var(--IsaDarkPurple);
-}
-
-button:hover{
-		border:solid 3px var(--IsaRed);
-		color:var(--IsaRed);
-}
 
 .header{
 	background-color: var(--IsaPink);
@@ -115,6 +103,24 @@ h2{
 	height: 30px;
 }
 
+button{
+	background-color: transparent;
+	font-size: 1.25rem;
+	border-radius: 12px;
+	border:solid 3px var(--IsaDarkPurple);
+	color:var(--IsaDarkPurple);
+}
+
+button:hover{
+		border:solid 3px var(--IsaRed);
+		color:var(--IsaRed);
+}
+
+#referenceimg{
+	width: 25%;
+	height:auto;
+}
+
 @media(max-width:800px){
 	.profileimg{
 		display: none;
@@ -130,5 +136,11 @@ h2{
 		width: 280px;
 		height: 157px;
 	}
+
+	#referenceimg{
+	width: 100%;
+	height:auto;
+}
+
 
 }
