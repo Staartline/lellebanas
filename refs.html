@@ -18,12 +18,11 @@
 	<!--HEADER-->
 	<div class="header">
 		<div class="logo">
-			<a href="index.html"><img src="assets/logo.png" alt="Lellebana" width="100px"></a>
+			<a href="index.html"><img src="assets/logo.png" alt="Lellebana" width="150px"></a>
 		</div>
 		<div class="links">
 			<a href="index.html">Home</a>
 			<a href="assets.html">Asset</a>
-			<a href="achiv.html">Milestone</a>
 			<a href="refs.html">Refs</a>
 		</div> 
 	</div>
@@ -36,15 +35,10 @@
 			<h1>References</h1>
 		</div>
 
-		<div class="buttons">
-			<button onclick="javascript:changeProfileImg('assets/original.png');">Original</button>
-			<button onclick="javascript:changeProfileImg('assets/stargazer.png');">Stargazer</button>
-			<button onclick="javascript:changeProfileImg('assets/casual.png');">Casual Outing</button>
-			<button onclick="javascript:changeProfileImg('assets/pajamas.png');">Pajamas</button>
-		</div>
+		
 
 		<div>
-			<img id="referenceimg" src="assets/original.png" alt="reference">
+			<img id="referenceimg" src="assets/ref.jpg" alt="reference">
 		</div>
 		
 	</div>
@@ -52,14 +46,5 @@
 	<div class="footer">
 		<p>Site Maintained by <a href="https://github.com/Staartline" target="_blank">STAARTLINE 2023</a></p>
 	</div>
-
-	<script>
-				
-		function changeProfileImg(imgsrc){
-			document.getElementById("referenceimg").setAttribute("src", imgsrc);
-			console.log("clicked");
-		}
-
-	</script>
 </body>
 </html>

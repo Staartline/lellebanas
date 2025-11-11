@@ -7,11 +7,14 @@
 	--IsaYellow: #fcf3ca;
 }
 
+
+
 body{
 	margin:0px;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	background-color: var(--IsaPink);
+	font-size: 1.25rem;
 }
 
 a{
@@ -35,6 +38,8 @@ a:hover{
 	position: sticky;
 	top: 0;
 
+
+
 }
 .header > .logo{
 	text-align: left;
@@ -44,6 +49,9 @@ a:hover{
 	min-width: 70%;
 	text-align: right;
 	text-decoration: none;
+
+	font-size: 16px;
+	margin-right:10px;
 	
 }
 
@@ -59,18 +67,21 @@ a:hover{
 
 h1{
 	font-family: 'Comfortaa', cursive;
-	font-size: 2.5rem;
+	font-size: 3rem;
 	color: var(--IsaRed);
 
 }
 
 h2{
 	color: var(--IsaRed);
+	font-size: 2.5rem;
 }
 
 .intro{
 	background-color: var(--IsaPink);
 	padding-bottom: 10px;
+
+	border-bottom:dotted var(--IsaRed);
 }
 
 .maincontent{
@@ -98,9 +109,31 @@ h2{
 
 }
 
+.abouttxt{
+	
+	border: dotted 3px var(--IsaPink);
+	border-radius: 20px;
+	min-block-size: 250px;	
+
+	padding: 20px;
+	margin: 10px;
+}
+
 .footer{
 	background-color: var(--IsaPink);
 	height: 30px;
+	padding: 10px;
+}
+
+.aboutbuttons{
+	display: inline-block;
+	
+	gap: 10px;
+	padding: 10px;
+}
+
+.buttons{
+	display: flex;
 }
 
 button{
@@ -116,8 +149,10 @@ button:hover{
 		color:var(--IsaRed);
 }
 
+
+
 #referenceimg{
-	width: 25%;
+	width: 50%;
 	height:auto;
 }
 
