@@ -14,7 +14,7 @@ body{
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	background-color: var(--IsaPink);
-	font-size: 1.25rem;
+	font-size: 1.1rem;
 }
 
 a{
@@ -43,6 +43,8 @@ a:hover{
 }
 .header > .logo{
 	text-align: left;
+	margin: 10px;
+	margin-top: 15px;
 }
 
 .header > .links > a{
@@ -65,6 +67,10 @@ a:hover{
 	padding-right: 5px;
 }
 
+.linkbuttons > a > img:hover{
+ transition: 0.3s ease-in-out;;
+}
+
 h1{
 	font-family: 'Comfortaa', cursive;
 	font-size: 3rem;
@@ -73,10 +79,15 @@ h1{
 }
 
 h2{
+	font-family: 'Comfortaa', cursive;
 	color: var(--IsaRed);
 	font-size: 2.5rem;
 }
 
+h3{
+	font-family: 'Comfortaa', cursive;
+
+}
 .intro{
 	background-color: var(--IsaPink);
 	padding-bottom: 10px;
@@ -149,6 +160,13 @@ button:hover{
 		color:var(--IsaRed);
 }
 
+.infoaboutlinks{
+	display: block;
+}
+
+.infoaboutlinksdiv{
+	display:inline-flex;
+}
 
 
 #referenceimg{
